@@ -1,0 +1,30 @@
+/* General Setup */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
+:root {
+ --default-font: "Poppins", sans-serif;
+}
+ *,
+ html{
+  font-family: var(--default-font);
+ }
+/* remove the underlines on the header */
+a{
+    text-decoration: none;
+}
+/* Header styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  
+}
+.brand{
+  display: flex;
+  align-items: normal;
+  gap: 1rem;
+}
+.logo-text{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
