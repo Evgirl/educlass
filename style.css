@@ -2,29 +2,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
 
 :root {
- --default-font: "Poppins", sans-serif;
+  --default-font: "Poppins", sans-serif;
+  --primary-color: #0066ff;
 }
- *,
- html{
+*,
+html {
   font-family: var(--default-font);
- }
+}
 /* remove the underlines on the header */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* Header styles */
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-  
-}
-.brand{
+header {
   display: flex;
-  align-items: normal;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
   gap: 1rem;
 }
-.logo-text{
+.logo-text {
   font-weight: 700;
   font-size: 1.5rem;
+}
+button {
+  border-radius: 25px;
+  border: none;
+  padding: 1rem 2rem;
+}
+.button-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+nav {
+  display: flex;
+  gap: 1rem;
 }
